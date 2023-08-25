@@ -8,5 +8,7 @@ theme_amanda <- function() {
   theme(plot.background = element_rect(fill = "turquoise"),
         panel.background = element_rect(fill = "pink"),
         axis.text = element_text(color = "gray"),
-        panel.grid = element_line(color = "lavender"))
+        panel.grid = element_line(color = "lavender"),
+        title = element_text(color = "white"),
+        panel.grid.minor = element_line(color = "yellow"))
 }
